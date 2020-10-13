@@ -5,7 +5,12 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return("website content goes here")
+    return ("website content goes here")
+
+
+@app.route("/")
+def about():
+    return("About content goes here")
 
 
 if __name__ == "__main__":
