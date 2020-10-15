@@ -15,3 +15,6 @@ def about():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
+
+# learned to upload to heroku but am not doing it now
